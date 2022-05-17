@@ -10,6 +10,7 @@ type Event struct {
 	Time               int64                  `json:"time,omitempty"`
 	EventProperties    map[string]interface{} `json:"event_properties,omitempty"`
 	UserProperties     map[string]interface{} `json:"user_properties,omitempty"`
+	Groups             map[string]interface{} `json:"groups,omitempty"`
 	AppVersion         string                 `json:"app_version,omitempty"`
 	Platform           string                 `json:"platform,omitempty"`
 	OSName             string                 `json:"os_name,omitempty"`
